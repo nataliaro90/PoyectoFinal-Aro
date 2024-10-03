@@ -1,0 +1,19 @@
+footer {
+    background-color: #d1bdf5;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #9a99f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.copy {
+    margin-top: 20px;
+    color: #777; 
+    font-size: 0.9rem; 
+    text-align: center;
+}

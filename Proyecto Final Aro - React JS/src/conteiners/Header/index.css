@@ -1,0 +1,40 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.navbar {
+    background-color: rgb(232, 193, 212);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.navbar-logo img {
+    max-height: 200px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.navbar-item {
+    display: inline; /* Cambia a inline para consistencia */
+    margin: 0 15px; /* Espacio horizontal entre los enlaces */
+}
+
+.navbar-link {
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    color: #182327; /* Color pastel verde suave */
+    font-weight: 600; /* Texto en negrita */
+    transition: color 0.3s; /* Transición suave al pasar el ratón */
+}
+
+.navbar-link:hover {
+    color: #dca3c8; /* Color rosa claro al pasar el ratón */
+}

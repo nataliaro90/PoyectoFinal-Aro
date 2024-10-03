@@ -1,0 +1,67 @@
+.contacto-container {
+    max-width: 600px;
+    margin: 40px auto; /* Margen superior para separación */
+    padding: 30px; /* Espacio interno */
+    background-color: #e8c1d4; /* Color suave */
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transition: box-shadow 0.3s ease; /* Transición suave al cambiar la sombra */
+}
+
+.contacto-container:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Sombra más intensa al pasar el ratón */
+}
+
+h2 {
+    text-align: center; /* Centrar título */
+    color: #333; /* Color del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-family: 'Montserrat', sans-serif; /* Fuente más destacada para el título */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 25px; /* Espacio entre grupos aumentado */
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555; /* Color más oscuro para mejor visibilidad */
+    font-family: 'Roboto', sans-serif; /* Fuente más legible para etiquetas */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px; /* Aumentar el padding para mayor comodidad */
+    border-radius: 8px; /* Bordes más suaves */
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s; /* Transición suave en el borde */
+    font-family: 'Roboto', sans-serif; /* Fuente más legible para los campos de entrada */
+}
+
+input:focus, textarea:focus {
+    border-color: #777; /* Cambio de color al enfocarse */
+    outline: none; /* Sin borde azul por defecto */
+}
+
+button {
+    padding: 15px; /* Aumenté el padding para el botón */
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none;
+    border-radius: 8px; /* Bordes más suaves */
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente para el botón */
+    transition: background-color 0.3s; /* Transición suave en el color */
+    font-family: 'Roboto', sans-serif; /* Fuente más legible para el botón */
+}
+
+button:hover {
+    background-color: #555; /* Color de fondo más claro al pasar el ratón */
+}

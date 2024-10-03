@@ -1,0 +1,71 @@
+.payment-simulator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #e28383;
+  border-radius: 8px;
+  background-color: #f8caca;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-simulator h2 {
+  color: #d57575;
+  margin-bottom: 20px;
+}
+
+.payment-simulator form {
+  width: 100%;
+}
+
+.payment-simulator div {
+  margin-bottom: 15px;
+}
+
+.payment-simulator label {
+  font-weight: bold;
+  color: #417849;
+}
+
+.payment-simulator input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #195b05;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #635c5c;
+}
+
+.payment-simulator input::placeholder {
+  color: #b3b3b3;
+}
+
+.payment-simulator p {
+  color: red;
+  text-align: center;
+}
+
+.payment-simulator .payment-button {
+  background-color: #1ec2a6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.payment-simulator .payment-button:hover {
+  background-color: #195b05;
+}
+
+@keyframes fade-in-out {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}

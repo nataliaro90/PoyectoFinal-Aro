@@ -1,0 +1,24 @@
+.cart-page {
+    padding: 40px 20px; /* Espaciado alrededor del contenido */
+    max-width: 1200px; /* Ancho máximo para el contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    background-color: #f9f9f9; /* Fondo suave */
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Sombra más marcada */
+    transition: box-shadow 0.3s ease; /* Transición suave al cambiar la sombra */
+}
+
+.cart-page:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra más intensa al pasar el ratón */
+}
+
+
+
+.cart {
+    margin-top: 20px; /* Espacio superior en el cart */
+    padding: 20px; /* Espacio interno adicional */
+    background-color: #d5d1d1; /* Fondo blanco para el contenido del carrito */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+

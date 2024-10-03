@@ -1,0 +1,53 @@
+.item {
+    background-color: #dfe9d2; 
+    border: 1px solid #bcdfc0; 
+    border-radius: 5px; 
+    text-align: center; 
+    max-width: 100%; 
+    padding: 10px; 
+    transition: transform 0.3s; 
+    margin: 15px; 
+    overflow: hidden; 
+}
+
+.item:hover {
+    transform: scale(1.05); 
+}
+
+.item-picture {
+    position: relative; 
+    width: 100%; 
+    height: 150px; 
+    overflow: hidden; 
+}
+
+.item-picture img {
+    width: 60%;
+    height: 40%;
+    object-fit: contain;
+}
+
+.item-picture img:hover {
+    transform: scale(1.1); 
+}
+
+.item-info {
+    margin-top: 10px; 
+}
+
+.item-info-title {
+    font-size: 20px; 
+    margin: 5px 0; 
+    color: rgb(23, 90, 90); 
+}
+
+.item-info-price {
+    font-size: 18px; 
+    margin: 5px 0; 
+    font-weight: bold; 
+}
+
+.item-info-dues {
+    font-size: 15px; 
+    color: #545ea6; 
+}

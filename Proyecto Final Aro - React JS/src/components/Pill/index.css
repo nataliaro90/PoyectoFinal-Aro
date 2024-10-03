@@ -1,0 +1,9 @@
+.pill {
+    position: absolute;
+    background-color: rgb(222, 243, 232);
+    padding: 0 2px;
+    border-radius: 30px;
+    font-size: 15px;
+    bottom: -4px;
+    right: 8px;
+}

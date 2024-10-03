@@ -1,0 +1,22 @@
+@import './styles/reset.css';
+@import './styles/shared.css';
+
+@import './components/Cart/index.css';
+@import './components/CartWitdget/index.css';
+@import './components/Item/index.css';
+@import './components/ItemDetail/index.css';
+@import './components/ItemList/index.css';
+@import './components/Menu/index.css';
+@import './components/Pill/index.css';
+@import'./components/Spinner/index.css';
+
+@import './conteiners/Header/index.css';
+@import './conteiners/Footer/index.css';
+
+@import './pages/CartPage/index.css';
+@import './pages/Contact/index.css';
+@import './pages/Detail/index.css';
+@import './pages/Home/index.css';
+@import './pages/Store/index.css';
+
+

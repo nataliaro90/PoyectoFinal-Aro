@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-item {
+    color: #008cba;
+    font-size: 18px;
+    transition: background-color 0.3s, padding 0.3s;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+    padding: 8px;
+    background-color: rgb(220, 243, 228);
+    border-radius: 3px;
+    outline: none;
+}
